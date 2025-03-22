@@ -8,3 +8,7 @@
 
 /* Подключение стилей для header */
 @import "/assets/css/header.css";
+
+/* Подключение стилей для contact-form */
+
+@import "/assets/css/contact-form.css";
