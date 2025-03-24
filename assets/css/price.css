@@ -1,0 +1,33 @@
+.price-table {
+    width: 100%;
+
+    td {
+        padding: 17px 0px;
+        border-bottom: 1px solid #d4d4d4;
+        font-size: 22px;
+        font-family: "Manrope-Medium", sans-serif;
+        line-height: 120%;
+        text-align: left;
+    }
+
+}
+
+.price-table__row--title {
+    font-size: 35px;
+    font-family: "Manrope-Medium", serif;
+    line-height: 144%;
+}
+
+.price-table__row--sub-title {
+    font-size: 22px;
+    font-family: "Manrope-Medium", serif;
+    color: #969696;
+}
+
+.price-table__cell--left {
+    width: 60%;
+}
+
+.price-table__cell--right {
+    width: 40%;
+}

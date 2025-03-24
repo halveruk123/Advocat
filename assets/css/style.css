@@ -12,3 +12,7 @@
 /* Подключение стилей для contact-form */
 
 @import "/assets/css/contact-form.css";
+
+/* Подключение стилей для price */
+
+@import "/assets/css/price.css";
