@@ -123,13 +123,13 @@
         width: 180px;
     }
     .header-logo-link {
-        font-size: var(--main-fontsize-text);
+        font-size: 15px;
     }
     .header-nav {
         width: 480px;
     }
     .header-phone {
-        font-size: var(--main-fontsize-text);
+        font-size: 15px;
     }
 }
 
