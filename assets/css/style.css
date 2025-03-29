@@ -16,3 +16,23 @@
 /* Подключение стилей для price */
 
 @import "/assets/css/price.css";
+
+/* Подключение стилей для страницы услуги */
+
+@import "/assets/css/services.css";
+
+/* Подключение стилей для меню услуг */
+
+@import "/assets/css/services-menu.css";
+
+/* Подключение стилей для страницы 404 */
+
+@import "/assets/css/404.css";
+
+/* Подключение стилей для страницы Отзывы */
+
+@import "/assets/css/reviews.css";
+
+/* ПОдключение стилей для страницы Контакты */
+
+@import "/assets/css/contacts.css";
