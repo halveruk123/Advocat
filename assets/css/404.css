@@ -1,0 +1,28 @@
+.error-404-container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.error-404-message {
+    padding:23px 0 32px 0;
+    text-align: center;
+    font-family: var(--main-text-font);
+    font-size: 20px;
+    line-height: 135%;
+    color: #272727;
+}
+
+.error-404-button {
+    width: var(--btn-width);
+    height: var(--btn-height);
+    background-color: #E7CA80;
+    border: none;
+    font-family: var(--main-medium-font);
+    font-size: 18px;
+    line-height: 110%;
+    color: #272727;
+}
+
+.error-404-button:hover {
+    background-color: #FFC300; 
+}
