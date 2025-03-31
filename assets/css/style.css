@@ -34,5 +34,13 @@
 @import "/assets/css/reviews.css";
 
 /* ПОдключение стилей для страницы Контакты */
+<<<<<<< Updated upstream
 
 @import "/assets/css/contacts.css";
+=======
+@import "/assets/css/contacts.css";
+
+/*Подключение стилей для страницы Профиль */
+
+@import "/assets/css/profile.css"
+>>>>>>> Stashed changes

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advokat</title>
+<!-- Bootstrap с CDN, заменить на битриксовый при подключении -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<!-- Fancybox-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+<!-- Общий файл стилей -->
+<link rel="stylesheet" href="/assets/css/style.css" />
+
+</head>
+<body>
+
+    <div class="lawyer-profile container">
+        <h2 class="lawyer-profile__title">Борисов Михаил Михайлович</h2>
+        <div class="lawyer-profile__content">
+            <div class="lawyer-profile__image-wrapper">
+                <img src="/assets/images/profile.png" alt="фото Борисова Михаила Михайловича" class="lawyer-profile__image">
+            </div>
+            <div class="lawyer-profile__description">
+                <p class="lawyer-profile__main-text">Борисов Михаил Михайлович является адвокатом Санкт-Петербургской городской коллегии адвокатов</p>
+                <p class="lawyer-profile__main-text">Адвокатская консультация Лигал Эйд/Legal Aid Городской коллегии адвокатов — образована в 2016 году.</p>
+                <p class="lawyer-profile__main-text">Адвокат Борисов начал осуществлять свою адвокатскую практику с 2008 года.</p>
+            </div>
+        </div>
+        <div class="lawyer-profile__additional-info">
+            <p class="lawyer-profile__sub-text">Основными принципами осуществления деятельности адвоката Борисова М.М. являются: индивидуальный подход к каждому правовому случаю, согласование грамотной правовой позиции по делу со своим доверителем, определение приоритетных правовых задач.</p>
+            <p class="lawyer-profile__sub-text">Специализация адвоката Борисова М.М. - гражданские дела, которые подразделяются на семейные, жилищные, наследственные, арбитражные дела.</p>
+            <p class="lawyer-profile__sub-text">Адвокат Борисов М.М. был неоднократно награжден Палатой адвокатов Санкт-Петербурга за успехи в адвокатской деятельности.</p>
+        </div>
+
+        <!-- Галерея -->
+        <div class="lawyer-gallery">
+            <h3 class="lawyer-gallery__title">Лицензии и сертификаты</h3>
+            <div class="lawyer-gallery__grid">
+                <a data-fancybox="gallery" href="/assets/images/certificate-1.png">
+                    <img src="/assets/images/certificate-1.png" alt="Изображение 1" class="lawyer-gallery__image">
+                </a>
+                <a data-fancybox="gallery" href="/assets/images/certificate-1.png">
+                    <img src="/assets/images/certificate-1.png" alt="Изображение 2" class="lawyer-gallery__image">
+                </a>
+                <a data-fancybox="gallery" href="/assets/images/certificate-1.png">
+                    <img src="/assets/images/certificate-1.png" alt="Изображение 3" class="lawyer-gallery__image">
+                </a>
+                <a data-fancybox="gallery" href="/assets/images/certificate-1.png">
+                    <img src="/assets/images/certificate-1.png" alt="Изображение 4" class="lawyer-gallery__image">
+                </a>
+                <a data-fancybox="gallery" href="/assets/images/certificate-1.png">
+                    <img src="/assets/images/certificate-1.png" alt="Изображение 5" class="lawyer-gallery__image">
+                </a>
+                <a data-fancybox="gallery" href="/assets/images/certificate-1.png">
+                    <img src="/assets/images/certificate-1.png" alt="Изображение 6" class="lawyer-gallery__image">
+                </a>
+                <a data-fancybox="gallery" href="/assets/images/certificate-1.png">
+                    <img src="/assets/images/certificate-1.png" alt="Изображение 6" class="lawyer-gallery__image">
+                </a>
+                <a data-fancybox="gallery" href="/assets/images/certificate-6.png" class="wide">
+                    <img src="/assets/images/certificate-6.png" alt="Изображение 8" class="lawyer-gallery__image">
+                </a>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+            <script>
+                Fancybox.bind('[data-fancybox="gallery"]', {
+                  //
+                });    
+            </script>
+        </div>
+    </div>
