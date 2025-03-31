@@ -35,3 +35,7 @@
 
 /* ПОдключение стилей для страницы Контакты */
 @import "/assets/css/contacts.css";
+
+/*Подключение стилей для страницы Профиль */
+@import "/assets/css/profile.css"
+

@@ -1,0 +1,82 @@
+.lawyer-profile__title {
+    font-family: var(--main-text-font);
+    font-size: 50px;
+    text-align: left;
+    color: #272727;
+}
+
+.lawyer-profile__content {
+    padding-top: 28px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.lawyer-profile__image-wrapper {
+    flex: 1;
+}
+
+.lawyer-profile__image {
+    width: 100%;
+    height: auto;
+}
+
+.lawyer-profile__description {
+    flex: 2;
+    padding-left: 40px;
+}
+
+.lawyer-profile__main-text {
+    font-family: var(--main-text-font);
+    font-size: 20px;
+    color: #272727;
+}
+
+.lawyer-profile__additional-info {
+    padding-top: 30px;
+}
+
+.lawyer-profile__sub-text {
+    font-family: var(--main-text-font);
+    font-size: 16px;
+    color: #272727;
+}
+
+.lawyer-gallery {
+    margin-top: 20px;
+}
+
+.lawyer-gallery__title {
+    font-family: var(--main-medium-font);
+    font-size: 35px;
+    color: #333;
+    text-align: left;
+}
+
+.lawyer-gallery__grid {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.lawyer-gallery__image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.3s;
+}
+
+.lawyer-gallery__image:hover {
+    transform: scale(1.05);
+}
+
+.wide {
+    grid-column: span 2;
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .lawyer-gallery__grid {
+        grid-template-columns: 1fr;
+    }
+}
