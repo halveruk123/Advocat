@@ -27,7 +27,6 @@
     font-family: var(--main-medium-font);
     font-size: 22px;
     line-height: 135%;
-
 }
 
 .content-block__divider {
@@ -173,4 +172,25 @@
     font-size: 18px;
     line-height: 135%;
     margin-top: 12px;
+}
+
+@media (max-width: 576px) {
+    .content-block__text, .content-block__link {
+        font-size: var(--main-text-font);
+    }
+    .content-block__link {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .content-block__item {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .content-block__text {
+        width: calc(100% - 20px);
+    }
+    .content-block__marker {
+        margin-top: 3px;
+    }
 }

@@ -12,6 +12,12 @@
 /* Подключение стилей для footer */
 @import "/assets/css/footer.css";
 
+/* Подключение стилей для breadcrumbs */
+@import "/assets/css/breadcrumbs.css";
+
+/* Подключение стилей для aside */
+@import "/assets/css/aside.css";
+
 /* Подключение стилей для contact-form */
 @import "/assets/css/contact-form.css";
 
