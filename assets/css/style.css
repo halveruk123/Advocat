@@ -44,6 +44,13 @@
 >>>>>>> Stashed changes
 
 /*Подключение стилей для страницы Профиль */
+<<<<<<< Updated upstream
+=======
+@import "/assets/css/profile.css";
+
+/*Подключение стилей для страницы Статьи */
+@import "/assets/css/article.css";
+>>>>>>> Stashed changes
 
 @import "/assets/css/profile.css"
 <<<<<<< Updated upstream
