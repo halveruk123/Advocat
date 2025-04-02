@@ -24,3 +24,10 @@
     line-height: 1.4;
     font-family: var(--main-text-font);
 }
+
+@media (max-width: 576px) {
+    .breadcrumbs {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+}

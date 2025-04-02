@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advokat</title>
-    <!-- Bootstrap с CDN, заменить на битриксовый при подключении -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- Fancybox-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <!-- Bootstrap с CDN, заменить на битриксовый при подключении -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- Общий файл стилей -->
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
@@ -141,18 +141,103 @@
     </div>
 
     <!-- Page -->
-     
-    <div class="container-reviews container col-lg-6">
-        <h1 class="reviews-title">Отзывы</h1>
-        <div class="reviews-text">
-            <p>Безусловно, многие граждане, нуждающиеся в юридической помощи, ищут хорошего гражданского, миграционного, семейного или уголовного адвоката по отзывам, оставленным в Интернете другими клиентами. И эта позиция является правильной, поскольку мнение людей о специалисте зачастую дает больше полезной информации, чем даже личные сайты и группы в социальных сетях.</p>
-        </div>
     
-        <div class="reviews-text">
-            <p>На этой странице публикуются реальные отзывы об адвокатах Legal Aid по семейным делам (раздел имущества, разводы), наследственным и уголовным делам, по жилищным вопросам. Специалисты адвокатской консультации Legal Aid всегда стремятся к достижению максимальных результатов – об этом свидетельствуют многочисленные положительные отзывы наших клиентов. Если вы ранее обращались за правовой помощью к нашим специалистам – будем благодарны, если вы оставите свое мнение о сотрудничестве через форму обратной связи. Можете не беспокоиться о конфиденциальности: ваши персональные данные будут скрыты от третьих лиц.</p>
+    <div class="container">
+        <div class="row">
+
+            <!-- Aside -->
+
+            <div class="col-12 col-sm-4 col-xl-3">
+                <aside class="aside">
+                    <p class="aside-title">УСЛУГИ</p>
+                    <ul class="aside-list">
+                        <li class="aside-item aside-item__active">
+                            <p>
+                                <span class="aside-item-title">Cемейные дела</span>
+                                <span class="aside-item-arrow">
+                                    <img src="/assets/images/arrow-up.svg" alt="">
+                                </span>
+                            </p>
+                            <ul class="aside-sublist">
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Установление порядка общения с ребенком</a>
+                                </li>
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Лишение родительских прав</a>
+                                </li>
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Установление отцовства</a>
+                                </li>
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Раздел имущества супругов</a>
+                                </li>
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Взыскание алиментов</a>
+                                </li>
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Расторжение брака</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="aside-item">
+                            <p>
+                                <span class="aside-item-title">Наследственные дела</span>
+                                <span class="aside-item-arrow">
+                                    <img src="/assets/images/arrow-up.svg" alt="">
+                                </span>
+                            </p>
+                            <ul class="aside-sublist">
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Установление порядка общения с ребенком</a>
+                                </li>
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Лишение родительских прав</a>
+                                </li>
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Установление отцовства</a>
+                                </li>
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Раздел имущества супругов</a>
+                                </li>
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Взыскание алиментов</a>
+                                </li>
+                                <li class="aside-subitem">
+                                    <a href="#" class="aside-sublink">Расторжение брака</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="aside-item">
+                            <p>
+                                <span class="aside-item-title">Уголовные дела</span>
+                                <span class="aside-item-arrow">
+                                    <img src="/assets/images/arrow-up.svg" alt="">
+                                </span>
+                            </p>
+                        </li>
+                        <li class="aside-item">
+                            <p>
+                                <span class="aside-item-title">Арбитражные дела</span>
+                                <span class="aside-item-arrow">
+                                    <img src="/assets/images/arrow-up.svg" alt="">
+                                </span>
+                            </p>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+
+            <!-- Page content -->
+
+            <div class="col-12 col-sm-8 col-xl-9">
+                <div class="container-reviews">
+                    <h1 class="content-block__title">Отзывы</h1>
+                    <p class="reviews-text">Безусловно, многие граждане, нуждающиеся в юридической помощи, ищут хорошего гражданского, миграционного, семейного или уголовного адвоката по отзывам, оставленным в Интернете другими клиентами. И эта позиция является правильной, поскольку мнение людей о специалисте зачастую дает больше полезной информации, чем даже личные сайты и группы в социальных сетях.</p>
+                    <p class="reviews-text">На этой странице публикуются реальные отзывы об адвокатах Legal Aid по семейным делам (раздел имущества, разводы), наследственным и уголовным делам, по жилищным вопросам. Специалисты адвокатской консультации Legal Aid всегда стремятся к достижению максимальных результатов – об этом свидетельствуют многочисленные положительные отзывы наших клиентов. Если вы ранее обращались за правовой помощью к нашим специалистам – будем благодарны, если вы оставите свое мнение о сотрудничестве через форму обратной связи. Можете не беспокоиться о конфиденциальности: ваши персональные данные будут скрыты от третьих лиц.</p>
+                    <div style="width:100%;height:800px;overflow:hidden;position:relative;"><iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/193195291206?comments"></iframe><a href="https://yandex.ru/maps/org/legal_aid/193195291206/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Legal. Aid на карте Москвы — Яндекс Карты</a></div>
+                </div>
+            </div>
         </div>
-    
-        <div style="width:560px;height:800px;overflow:hidden;position:relative;"><iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/193195291206?comments"></iframe><a href="https://yandex.ru/maps/org/legal_aid/193195291206/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Legal. Aid на карте Москвы — Яндекс Карты</a></div>
     </div>
 </main>
 
@@ -160,7 +245,7 @@
 
 <div class="contact-form-wrapper">
     <div class="container">
-        <div class="contact-form-container">
+        <div class="contact-form-container row">
             <div class="col-12 col-sm-6 col-xl-6 text-section">
                 <h2 class="text-section title__text">Запишитесь на консультацию</h2>
                 <p class="text-section main__text">Краткий сопроводительный текст. Краткий сопроводительный текст. </p>

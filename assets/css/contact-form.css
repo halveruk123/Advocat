@@ -6,9 +6,6 @@
 
 .contact-form-container {
     padding: 75px 15px 75px 15px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
     background-color: var(--main-white);
     outline: 2px solid;
     outline-color: var(--main-blue);
@@ -23,24 +20,30 @@
     flex-direction: column;
 
     .title__text {
-        font-family: "Manrope-Bold", sans-serif;
+        font-family: var(--main-title-font);
         line-height: 98%;
-        font-size: 40px;
+        font-size: var(--main-fontsize-title-innerpage);
+        color: #535353;
+        margin-bottom: 20px;
     }
 }
 
 .main__text {
-    font-family: "Manrope-Regular", sans-serif;
+    font-family: var(--main-text-font);
     font-size: 18px;
     padding-left: 0px;
+    line-height: 1.35;
+    margin-bottom: 0;
 }
 
 .form__check {
     padding-left: 0px;
-    font-family: "Manrope-Medium", sans-serif;
+    font-family: var(--main-medium-font);
     color: #858585;
     font-size: 15px;
     line-height: 130%;
+    margin-bottom: 0;
+    margin-top: 60px;
 }
 
 .input-section {
@@ -51,6 +54,7 @@
 
 .form-control {
     max-width: 350px;
+    height: 51px;
 }
 
 .input-section input {
@@ -64,7 +68,7 @@
 
 .submit-button {
     max-width: 245px;
-    height: 40px;
+    height: 51px;
     background-color: #E7CA80;
     font-family: "Manrope-Medium";
     font-size: 18px;
@@ -72,36 +76,55 @@
     color: #272727;
 }
 .submit-button:hover {
-    background-color: #0056b3;
+    background-color: var(--main-btn-color-hover);
+}
+
+@media (max-width: 1024px) {
+    .text-section {
+        .title__text {
+            font-size: var(--main-fontsize-title-indexpage-tablets);
+        }
+        .main__text {
+            font-size: 18px;
+        }
+    }
+    .form__check {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 576px) {
-
     .contact-form-wrapper {
         padding: 0px;
         background-color: #fff;
+        padding-bottom: 70px;
     }
-
     .contact-form-container {
         padding: 20px 0px;
         outline: none;
     }
-}
-
-@media (max-width: 768px) {
-
     .text-section {
-
         .title__text {
-            font-size: 26px;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 14px;
         }
-
         .main__text {
-            font-size: 13px;
+            font-size: 16px;
+            text-align: center;
         }
     }
-
+    .form-control {
+        max-width: 100%;
+    }
+    .contact-form-captcha {
+        max-width: 100%;
+    }
+    .submit-button {
+        max-width: 100%;
+    }
     .form__check {
-        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 }

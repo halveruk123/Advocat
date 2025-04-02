@@ -6,6 +6,8 @@
 /* Подключение базовых (общих) стилей для всего проекта */
 @import "/assets/css/base.css";
 
+/*------------------------ Подключение блоков ------------------------------*/
+
 /* Подключение стилей для header */
 @import "/assets/css/header.css";
 
@@ -21,6 +23,8 @@
 /* Подключение стилей для contact-form */
 @import "/assets/css/contact-form.css";
 
+/*------------------------ Подключение страниц ------------------------------*/
+
 /* Подключение стилей главной страницы */
 @import "/assets/css/frontpage.css";
 
@@ -30,9 +34,6 @@
 /* Подключение стилей для страницы услуги */
 @import "/assets/css/services.css";
 
-/* Подключение стилей для меню услуг */
-@import "/assets/css/services-menu.css";
-
 /* Подключение стилей для страницы 404 */
 @import "/assets/css/404.css";
 
@@ -40,28 +41,13 @@
 @import "/assets/css/reviews.css";
 
 /* ПОдключение стилей для страницы Контакты */
-<<<<<<< Updated upstream
 @import "/assets/css/contacts.css";
 
-/*Подключение стилей для страницы Профиль */
-@import "/assets/css/profile.css"
-
-=======
-
-@import "/assets/css/contacts.css";
+/*Подключение стилей для страницы about */
+@import "/assets/css/about.css";
 
 /*Подключение стилей для страницы Профиль */
-<<<<<<< Updated upstream
-=======
 @import "/assets/css/profile.css";
 
 /*Подключение стилей для страницы Статьи */
-@import "/assets/css/article.css";
->>>>>>> Stashed changes
-
-@import "/assets/css/profile.css";
-
-/*Подключение стилей для страницы Статьи */
-
-@import "/assets/css/article.css";
->>>>>>> Stashed changes
+@import "/assets/css/blog.css";
