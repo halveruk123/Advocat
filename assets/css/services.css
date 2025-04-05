@@ -125,6 +125,7 @@
 
 .family-law-services__list {
     padding: 20px 0px 0px 20px;
+    font-size: 18px;
 }
 
 .family-law-services__item {
@@ -139,7 +140,7 @@
 }
 
 .info-block {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .info-block__title {
@@ -193,6 +194,20 @@
     margin-top: 12px;
 }
 
+.legal-assistance p {
+    margin-bottom: 30px;
+}
+
+.legal-assistance h2, .legal-assistance h3, .legal-assistance h4 {
+    padding-top: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.legal-assistance ol li, .legal-assistance ul li {
+    margin-bottom: 10px;
+}
+
 @media (max-width: 1024px) {
     .info-block__item-subtitle {
         font-size: 22px;
@@ -209,6 +224,9 @@
 }
 
 @media (max-width: 576px) {
+    .content-block {
+        padding-bottom: 40px;
+    }
     .content-block__text, .content-block__link {
         font-size: var(--main-text-font);
     }
@@ -242,5 +260,24 @@
     }
     .legal-assistance p {
         margin-bottom: 20px;
+        padding: 0;
+    }
+    .legal-assistance h2, .legal-assistance h3, .legal-assistance h4 {
+        padding-top: 20px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .legal-assistance ol, .legal-assistance ul {
+        padding-top: 0;
+    }
+    .legal-assistance ol li, .legal-assistance ul li {
+        font-size: var(--main-fontsize-text);
+    }
+    .info-block__title {
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .content-block__text {
+        margin-bottom: 10px;
     }
 }

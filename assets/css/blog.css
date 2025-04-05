@@ -1,26 +1,17 @@
-/*h1 {
-    margin-bottom: 30px;
-    text-align: left;
-    font-family: var(--main-text-font);
-    font-size: 50px;
-    line-height: 103%;
-    color: var(--main-black);
-}*/
-
-.article {
+.blog {
     border-bottom: 1px solid #ccc;
 }
 
-.articles-first {
+.blogs-first {
     border-top: 1px solid #ccc;
 }
 
-.article-content {
+.blog-content {
     padding-top: 20px;
     display: flex;
 }
 
-.article-title {
+.blog-title {
     text-align: left;
     font-family: var(--main-title-font);
     font-size: 28px;
@@ -30,7 +21,7 @@
     padding-top: 30px;
 }
 
-.article-info {
+.blog-info {
     text-align: left;
     font-family: var(--main-text-font);
     font-size: var(--main-fontsize-text);
@@ -41,18 +32,18 @@
     padding-left: 20px;
 }
 
-.article-image {
+.blog-image {
     padding-bottom: 20px;
     width: 260px;
 }
 
-.article-image img {
+.blog-image img {
     display: block;
     width: 100%;
     object-fit: cover;
 }
 
-.article-link {
+.blog-link {
     margin-top: auto;
     font-family: var(--main-medium-font);
     font-size: 22px;
@@ -61,55 +52,55 @@
     text-decoration: underline;
 }
 
-.articles-content {
+.blogs-content {
     padding-bottom: 90px;
 }
 
 @media (max-width: 1024px) {
-    .article-title {
+    .blog-title {
         font-size: 24px;
     }
-    .article-link {
+    .blog-link {
         font-size: 20px;
     }
-    .article-content {
+    .blog-content {
         padding-bottom: 30px;
         padding-bottom: 30px;
     }
-    .article-image {
+    .blog-image {
         width: 200px;
     }
-    .article-info {
+    .blog-info {
         width: calc(100% - 220px);
         margin-bottom: 0;
     }
 }
 
 @media (max-width: 576px) {
-    .article-content {
+    .blog-content {
         flex-direction: column;
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .article-title {
+    .blog-title {
         font-size: 22px;
         text-align: center;
     }
-    .article-image {
+    .blog-image {
         width: 190px;
         margin: 0 auto;
     }
-    .article-info {
+    .blog-info {
         width: 100%;
         padding-left: 0;
     }
-    .article-link {
+    .blog-link {
         display: block;
         margin: 0 auto;
         text-align: center;
         font-size: var(--main-fontsize-text);
     }
-    .articles-content {
+    .blogs-content {
         padding-bottom: 40px;
     }
 }

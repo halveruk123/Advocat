@@ -49,6 +49,8 @@ h3 {
 
     img {
         padding: 30px 0px;
+        width: 100%;
+        object-fit: cover;
     }
 
     h2 {
@@ -78,57 +80,40 @@ h3 {
 }
 
 @media (max-width: 1024px) {
-
-    h1 {
-        font-size: 45px;
+    .article-text-wrapper p {
+        font-size: 16px;
     }
-
-    h2 {
+    .article-content h2 {
         font-size: 30px;
     }
-
-    h3 {
-        font-size: 35px;
+    .article-content h3 {
+        font-size: 30px;
     }
-
-    .article-text-wrapper {
-
-        p{
-            font-size: 16px;
-        }
-    }
-
-    p {
+    .article-content p {
         font-size: 16px;
     }
 }
 
 @media (max-width: 576px) {
-
+    .article-block {
+        padding: 25px 20px;
+        margin-top: 25px;
+    }
     .article-image-wrapper {
         display: none;
     }
-
-    h1 {
-        font-size: 35px;
-    }
-
-    h2 {
+    .article-content h3 {
         font-size: 25px;
     }
-
-    h3 {
-        font-size: 25px;
-    }
-
-    .article-text-wrapper {
-        p{
-            font-size: 16px;
-        }
-    }
-
-    p {
+    .article-content p {
         font-size: 16px;
     }
-
+    .article-text-wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
     }
+    .article-text-wrapper p {
+        font-size: 16px;
+    }
+}

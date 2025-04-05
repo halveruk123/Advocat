@@ -1,0 +1,80 @@
+.service-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    background-color: var(--main-blue);
+    margin-bottom: 30px;
+}
+
+.service-col {
+    display: block;
+    width: 50%;
+}
+
+.service-form-title {
+    font-size: 20px;
+    color: var(--main-white);
+    font-family: var(--main-thin-font);
+    line-height: 1.03;
+}
+
+.service-form-title span {
+    font-size: 45px;
+    font-family: var(--main-extrabold-font);
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.service-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.service-form form input {
+    background-color: transparent;
+    margin-bottom: 12px;
+    color: var(--main-white);
+}
+
+.service-form form input::placeholder {
+    color: var(--main-white);
+}
+
+.service-form form input:hover, .service-form form input:focus {
+    background-color: transparent;
+    color: var(--main-white);
+}
+
+.service-form form a {
+    color: var(--main-white);
+    display: inline-block;
+    margin-top: 12px;
+    text-decoration: underline;
+}
+
+.service-form .policy-check-text {
+    color: var(--main-white);
+    font-size: 14px;
+    display: block;
+    margin-top: 25px;
+}
+
+@media (max-width: 1024px) {
+    .service-form {
+        flex-wrap: wrap;
+    }
+    .service-col {
+        width: 100%;
+    }
+    .service-col picture {
+        display: none;
+    }
+    .service-form input {
+        max-width: 100%;
+    }
+}

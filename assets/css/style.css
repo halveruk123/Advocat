@@ -23,6 +23,12 @@
 /* Подключение стилей для contact-form */
 @import "/assets/css/contact-form.css";
 
+/* Подключение стилей для service-form */
+@import "/assets/css/service-form.css";
+
+/* Подключение стилей для pagination */
+@import "/assets/css/pager.css";
+
 /*------------------------ Подключение страниц ------------------------------*/
 
 /* Подключение стилей главной страницы */
@@ -31,8 +37,11 @@
 /* Подключение стилей для price */
 @import "/assets/css/price.css";
 
-/* Подключение стилей для страницы услуги */
+/* Подключение стилей для страницы услуги общая */
 @import "/assets/css/services.css";
+
+/* Подключение стилей для страницы услуги детальная */
+@import "/assets/css/service.css";
 
 /* Подключение стилей для страницы 404 */
 @import "/assets/css/404.css";
@@ -53,5 +62,4 @@
 @import "/assets/css/blog.css";
 
 /*Подключение стилей для страницы Статьи */
-
 @import "/assets/css/article.css"

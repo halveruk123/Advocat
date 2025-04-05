@@ -3,7 +3,7 @@
 .frontpage-title {
     font-size: 50px;
     color: var(--main-white);
-    font-family: var(--main-title-font);
+    font-family: var(--main-text-font);
     display: block;
 }
 
